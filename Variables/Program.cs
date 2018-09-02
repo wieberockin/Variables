@@ -22,6 +22,7 @@ namespace Variables
             Console.WriteLine("What is Your name?");
             Console.Write("Type your first name: ");
             string myFirstName = Console.ReadLine();
+            //This is the change that I want to add to the next commit
 
             //string myLastName;
             //Console.Write("Type your last name: ");
@@ -32,6 +33,8 @@ namespace Variables
 
             Console.WriteLine("Hello " + myFirstName + " " + myLastName);
             Console.ReadLine();
+
+
             
         }
     }
